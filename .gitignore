@@ -1,0 +1,16 @@
+# Big cached historical datasets — NOT needed in the cloud (live_scan fetches fresh data).
+data/
+
+# Python noise
+__pycache__/
+*.pyc
+
+# Backtest plot/CSV artifacts (keep results/live_scan_* — see negations below)
+results/*.png
+results/crypto*.csv
+results/trade_log*.csv
+
+# Keep the live-scan outputs (the whole point of the cloud runner)
+!results/live_scan_log.csv
+!results/live_scan_status.txt
+!results/live_scan_seen.json

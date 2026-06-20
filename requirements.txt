@@ -1,0 +1,7 @@
+pandas
+numpy
+ccxt          # live exchange data for live_scan.py (KuCoin/MEXC/Bybit/OKX fallback)
+# pandas_ta is the spec's indicator lib, but it is NOT installable on every interpreter
+# (e.g. Python 3.11 with pandas>=3 / numpy>=2). features.py imports it when available and
+# otherwise falls back to identical built-in pandas EMA/RSI/ATR, so the project runs either way.
+# pandas_ta==0.3.14b0   ; python_version >= "3.12"
