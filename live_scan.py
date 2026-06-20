@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ccxt, pandas as pd
 import features
+import paper
 from crypto import CryptoStrategy
 
 # Data source: try exchanges in order, use the first that serves OHLCV. Binance is last
@@ -78,6 +79,7 @@ def main():
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     seen = load_seen()
     fired, watch, bar_ts = [], [], None
+    dfs = {}
 
     for sym in PAIRS:
         try:
@@ -85,6 +87,7 @@ def main():
         except Exception as e:
             print(f"  {sym}: fetch error {e}")
             continue
+        dfs[sym] = df
         last = df.iloc[-1]
         bar_ts = str(df["date"].iloc[-1])
         sig = STRAT.evaluate(df)
@@ -122,6 +125,21 @@ def main():
                 seen.add(key)
         json.dump(sorted(seen), open(SEEN, "w"))
 
+    # --- PAPER TRADES: open new positions, close ones that hit stop/target ---
+    openpos = paper.load_open()
+    opened = []
+    for sym, sig, key, _ in new:                 # only freshly-fired signals
+        if sym in openpos:                       # one paper position per symbol
+            continue
+        t = paper.open_trade(sym, sig, str(dfs[sym]["date"].iloc[-1]), now)
+        if t:
+            openpos[sym] = t
+            opened.append(sym)
+    openpos, closed = paper.check_open(openpos, dfs)
+    paper.append_ledger(closed)
+    paper.save_open(openpos)
+    paper_txt = paper.write_summary(openpos, dfs, now)
+
     # heartbeat / current picture
     lines = [f"LIVE SCAN heartbeat {now} | source {ex_name} | last closed 1h bar {bar_ts}",
              f"fired this scan: {len(fired)} (new logged: {len(new)}) | watchlist: {len(watch)}",
@@ -134,11 +152,18 @@ def main():
     lines.append("")
     lines.append("WATCHLIST:")
     lines += [f"  {w}" for w in sorted(watch)] or ["  (empty)"]
+    if opened:
+        lines.append("")
+        lines.append(f"PAPER: opened {len(opened)} position(s): {', '.join(opened)}")
+    if closed:
+        lines.append(f"PAPER: closed {len(closed)} position(s): " +
+                     ", ".join(f"{c['symbol']}={c['result']}(Rs{c['pnl_inr']})" for c in closed))
     text = "\n".join(lines)
     open(STATUS, "w", encoding="utf-8").write(text + "\n")
     print(text)
+    print("\n" + paper_txt)
     if new:
-        print(f"\n>>> {len(new)} NEW signal(s) appended to {LOG}")
+        print(f">>> {len(new)} NEW signal(s) appended to {LOG}")
 
 
 if __name__ == "__main__":
