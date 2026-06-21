@@ -1,0 +1,2 @@
+entry_date,expiry,spot,vix,lot,sp,sc,lp,lc,credit,max_loss,be_low,be_high,status,expiry_spot,pnl_pts,pnl_inr
+2026-06-19,2026-07-28,24013.1,12.97,65,23200.0,24800.0,22800.0,25200.0,120.2,279.8,23079.8,24920.2,open,,,
