@@ -5,6 +5,9 @@ data/
 __pycache__/
 *.pyc
 
+# Local Task Scheduler logs (scan/push runners)
+_tasklogs/
+
 # Backtest plot/CSV artifacts (keep results/live_scan_* — see negations below)
 results/*.png
 results/crypto*.csv
