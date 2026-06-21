@@ -15,6 +15,12 @@ fno_*.md
 equity_*.py
 deploy_*.py
 
+# Commodity scanner transient runtime state (the record files — log + trade ledger — stay tracked)
+results/commodity_scan_status.txt
+results/commodity_scan_seen.json
+results/commodity_paper_open.json
+results/commodity_paper_summary.txt
+
 # Backtest plot/CSV artifacts (keep results/live_scan_* — see negations below)
 results/*.png
 results/crypto*.csv
