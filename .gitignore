@@ -8,6 +8,13 @@ __pycache__/
 # Local Task Scheduler logs (scan/push runners)
 _tasklogs/
 
+# Non-scanner research families kept out of this crypto-scanner repo:
+# F&O work is version-controlled in the nifty-condor-paper repo; equity research is local-only.
+fno_*.py
+fno_*.md
+equity_*.py
+deploy_*.py
+
 # Backtest plot/CSV artifacts (keep results/live_scan_* — see negations below)
 results/*.png
 results/crypto*.csv
