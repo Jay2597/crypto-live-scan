@@ -1,10 +1,9 @@
-LIVE SCAN heartbeat 2026-06-21 05:23 UTC | source kucoin | last closed 1h bar 2026-06-21 04:00:00+00:00
-fired this scan: 0 (new logged: 0) | watchlist: 4
+LIVE SCAN heartbeat 2026-06-21 09:06 UTC | source kucoin | last closed 1h bar 2026-06-21 08:00:00+00:00
+fired this scan: 0 (new logged: 0) | watchlist: 3
 
   no fired signals — FLAT
 
 WATCHLIST:
-  SHORT AVAX/USDT  px 6.237       0.83% under res | RSI59 ADX19 slope-3.88%
-  SHORT DOGE/USDT  px 0.08331     1.18% under res | RSI45 ADX20 slope-1.46%
-  SHORT DOT/USDT   px 0.9668      0.93% under res | RSI51 ADX15 slope-1.18%
-  SHORT NEAR/USDT  px 2.2013      1.17% under res | RSI57 ADX16 slope-1.32%
+  SHORT BNB/USDT   px 588.676     0.51% under res | RSI56 ADX32 slope-1.21%
+  SHORT DOGE/USDT  px 0.08316     1.27% under res | RSI44 ADX18 slope-1.37%
+  SHORT SUI/USDT   px 0.7084      1.21% under res | RSI45 ADX23 slope-2.85%
