@@ -1,5 +1,7 @@
-PAPER-TRADE SUMMARY  (updated 2026-06-22 17:03 UTC)
+PAPER-TRADE SUMMARY  (updated 2026-06-22 20:03 UTC)
 closed trades: 0 | wins: 0 | win%: 0.0
 total R: 0 | total P&L: Rs 0 | profit factor: 0.0
-open positions: 0
+open positions: 1
 
+OPEN (marked to last close):
+  LONG SOL/USDT entry 72.726345 sl 70.54845491 tp 79.26001528 since 2026-06-22 19:00:00+00:00 | MTM Rs -50.08 (-0.02R)

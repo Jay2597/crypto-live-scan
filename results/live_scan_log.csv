@@ -1,0 +1,2 @@
+scanned_at,source,bar_ts,symbol,side,entry,atr,score,reasons
+2026-06-22 20:03 UTC,kucoin,2026-06-22 19:00:00+00:00,SOL/USDT,long,72.69,0.7259633646670889,3.32,"{""level"": 72.46, ""patterns"": [""harami""], ""rsi"": 42.2, ""close_pos"": 0.68, ""body_to_range"": 0.15, ""range_expansion"": false, ""movement"": false, ""adx"": 15.2, ""ema_slope%"": 1.75}"
