@@ -1,10 +1,7 @@
-LIVE SCAN heartbeat 2026-06-22 20:03 UTC | source kucoin | last closed 1h bar 2026-06-22 18:00:00+00:00
-fired this scan: 1 (new logged: 1) | watchlist: 2
+LIVE SCAN heartbeat 2026-06-22 23:03 UTC | source kucoin | last closed 1h bar 2026-06-22 22:00:00+00:00
+fired this scan: 0 (new logged: 0) | watchlist: 0
 
-  FIRED LONG SOL/USDT @ 72.69 score 3.32
+  no fired signals — FLAT
 
 WATCHLIST:
-  LONG  LTC/USDT   px 44.63       0.56% above sup | RSI42 ADX26 slope+0.52%
-  LONG  UNI/USDT   px 3.0157      1.07% above sup | RSI46 ADX20 slope+1.14%
-
-PAPER: opened 1 position(s): SOL/USDT
+  (empty)
