@@ -1,7 +1,7 @@
-LIVE SCAN heartbeat 2026-06-22 14:03 UTC | source kucoin | last closed 1h bar 2026-06-22 13:00:00+00:00
+LIVE SCAN heartbeat 2026-06-22 17:03 UTC | source kucoin | last closed 1h bar 2026-06-22 16:00:00+00:00
 fired this scan: 0 (new logged: 0) | watchlist: 1
 
   no fired signals — FLAT
 
 WATCHLIST:
-  SHORT INJ/USDT   px 5.012       0.26% under res | RSI57 ADX20 slope-2.62%
+  LONG  SOL/USDT   px 72.94       0.86% above sup | RSI43 ADX17 slope+1.76%
