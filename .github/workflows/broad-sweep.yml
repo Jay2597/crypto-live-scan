@@ -1,0 +1,50 @@
+name: crypto-broad-sweep
+
+# Once a day, scan the TOP-N most liquid USDT pairs (wider than live_scan's fixed universe)
+# and commit results/broad_scan_status.txt back to the repo. Purpose: surface NEW near-trigger
+# names (tagged "<-- NOT in live_scan") that are worth adding to the tracked universe. This is a
+# discovery sweep only — it does not fire paper trades or touch the live_scan log/seen state.
+
+on:
+  schedule:
+    - cron: "7 4 * * *"   # daily at 04:07 UTC. GitHub may delay under load.
+  workflow_dispatch:        # run manually from the Actions tab
+
+concurrency:
+  group: crypto-broad-sweep
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # needed to commit the status file back to the repo
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run broad sweep
+        env:
+          # Binance is blocked (HTTP 451) from GitHub's US runners; use alts that serve all pairs.
+          SCAN_EXCHANGES: "kucoin,mexc,bybit,okx"
+        run: python broad_scan.py 150
+
+      - name: Commit status if changed
+        run: |
+          git config user.name "crypto-scan-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/broad_scan_status.txt
+          if git diff --staged --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "broad sweep $(date -u +'%Y-%m-%dT%H:%MZ')"
+            git pull --rebase --autostash
+            git push
+          fi

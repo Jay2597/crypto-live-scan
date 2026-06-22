@@ -25,9 +25,11 @@ EXCHANGES = os.environ.get("SCAN_EXCHANGES", "kucoin,mexc,bybit,okx,binance").sp
 
 # 12 majors (hist10mo universe) UNION the 16 top-liquidity pairs (top6mo universe).
 # Extra from top16: APT, INJ, NEAR, RUNE, SUI. DOT kept from the majors. = 17 unique pairs.
+# + UNI, AERO added 2026-06-22 from broad_scan.py (liquid, strong-trend near-trigger setups). = 19.
 PAIRS = ["BTC/USDT", "ETH/USDT", "BNB/USDT", "SOL/USDT", "XRP/USDT", "ADA/USDT",
          "DOGE/USDT", "AVAX/USDT", "LINK/USDT", "LTC/USDT", "DOT/USDT", "TRX/USDT",
-         "APT/USDT", "INJ/USDT", "NEAR/USDT", "RUNE/USDT", "SUI/USDT"]
+         "APT/USDT", "INJ/USDT", "NEAR/USDT", "RUNE/USDT", "SUI/USDT",
+         "UNI/USDT", "AERO/USDT"]
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "results")
