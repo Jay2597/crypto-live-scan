@@ -1,7 +1,7 @@
-PAPER-TRADE SUMMARY  (updated 2026-06-23 17:03 UTC)
+PAPER-TRADE SUMMARY  (updated 2026-06-23 20:03 UTC)
 closed trades: 1 | wins: 0 | win%: 0.0
 total R: -1.08 | total P&L: Rs -1081.98 | profit factor: 0.0
 open positions: 1
 
 OPEN (marked to last close):
-  LONG TRX/USDT entry 0.330165 sl 0.3269964 tp 0.3396708 since 2026-06-23 11:00:00+00:00 | MTM Rs 33.09 (0.14R)
+  LONG TRX/USDT entry 0.330165 sl 0.3269964 tp 0.3396708 since 2026-06-23 11:00:00+00:00 | MTM Rs -503.43 (-0.4R)
