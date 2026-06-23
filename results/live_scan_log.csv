@@ -1,3 +1,4 @@
 scanned_at,source,bar_ts,symbol,side,entry,atr,score,reasons
 2026-06-22 20:03 UTC,kucoin,2026-06-22 19:00:00+00:00,SOL/USDT,long,72.69,0.7259633646670889,3.32,"{""level"": 72.46, ""patterns"": [""harami""], ""rsi"": 42.2, ""close_pos"": 0.68, ""body_to_range"": 0.15, ""range_expansion"": false, ""movement"": false, ""adx"": 15.2, ""ema_slope%"": 1.75}"
 2026-06-23 12:14 UTC,kucoin,2026-06-23 11:00:00+00:00,TRX/USDT,long,0.33,0.0010562002274127574,5.82,"{""level"": 0.33, ""patterns"": [""marubozu"", ""engulfing""], ""rsi"": 41.4, ""close_pos"": 0.91, ""body_to_range"": 0.91, ""range_expansion"": true, ""movement"": false, ""adx"": 26.9, ""ema_slope%"": 1.05}"
+2026-06-23 16:03 UTC,kucoin,2026-06-23 15:00:00+00:00,TRX/USDT,long,0.3299,0.0010033380543298573,3.39,"{""level"": 0.33, ""patterns"": [""engulfing""], ""rsi"": 42.7, ""close_pos"": 0.44, ""body_to_range"": 0.44, ""range_expansion"": false, ""movement"": false, ""adx"": 31.1, ""ema_slope%"": 1.05}"
