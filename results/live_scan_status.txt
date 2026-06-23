@@ -1,7 +1,7 @@
-LIVE SCAN heartbeat 2026-06-22 23:03 UTC | source kucoin | last closed 1h bar 2026-06-22 22:00:00+00:00
-fired this scan: 0 (new logged: 0) | watchlist: 0
+LIVE SCAN heartbeat 2026-06-23 00:33 UTC | source kucoin | last closed 1h bar 2026-06-22 23:00:00+00:00
+fired this scan: 0 (new logged: 0) | watchlist: 1
 
   no fired signals — FLAT
 
 WATCHLIST:
-  (empty)
+  LONG  UNI/USDT   px 2.985       0.93% above sup | RSI42 ADX17 slope+1.08%
