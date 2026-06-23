@@ -1,9 +1,7 @@
-BROAD SWEEP 2026-06-23 07:56 UTC | source kucoin | last closed 1h bar 2026-06-23 06:00:00+00:00
-scanned 99 pairs (0 fetch errors) | fired 0 | near-trigger 3
+BROAD SWEEP 2026-06-23 13:35 UTC | source kucoin | last closed 1h bar 2026-06-23 12:00:00+00:00
+scanned 104 pairs (0 fetch errors) | fired 0 | near-trigger 1
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  TIA/USDT       px 0.3834       0.91% above sup | RSI45 ADX27 slope+1.34%   <-- NOT in live_scan
-  SHORT STAY/USDT      px 2.856e-05    0.95% under res | RSI45 ADX25 slope-0.99%   <-- NOT in live_scan
-  LONG  TRX/USDT       px 0.3318       0.99% above sup | RSI50 ADX21 slope+1.05%
+  SHORT AVAX/USDT      px 6.246        1.41% under res | RSI50 ADX18 slope-1.36%

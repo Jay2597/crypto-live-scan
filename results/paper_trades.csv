@@ -1,0 +1,2 @@
+symbol,side,result,entry_dt,exit_dt,entry,sl,tp,exit,qty,atr,bars,pnl_r,pnl_inr
+SOL/USDT,long,loss,2026-06-22 19:00:00+00:00,2026-06-23 06:00:00+00:00,72.726345,70.548455,79.260015,70.548455,459.159993,0.725963,11,-1.082,-1081.98
