@@ -1,4 +1,4 @@
-LIVE SCAN heartbeat 2026-06-25 14:03 UTC | source kucoin | last closed 1h bar 2026-06-25 13:00:00+00:00
+LIVE SCAN heartbeat 2026-06-25 17:03 UTC | source kucoin | last closed 1h bar 2026-06-25 16:00:00+00:00
 fired this scan: 0 (new logged: 0) | watchlist: 0
 
   no fired signals — FLAT
