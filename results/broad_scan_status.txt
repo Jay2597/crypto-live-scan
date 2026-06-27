@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 BROAD SWEEP 2026-06-27 07:24 UTC | source kucoin | last closed 1h bar 2026-06-27 06:00:00+00:00
 scanned 101 pairs (0 fetch errors) | fired 0 | near-trigger 9
+=======
+BROAD SWEEP 2026-06-27 13:35 UTC | source kucoin | last closed 1h bar 2026-06-27 12:00:00+00:00
+scanned 97 pairs (0 fetch errors) | fired 1 | near-trigger 6
+>>>>>>> c443907 (local scan batch 2026-06-27T14:09Z)
 
-FIRED SIGNALS: none
+FIRED SIGNALS:
+  FIRED SHORT PAXG/USDT      @ 4079.11 score 6.5  <-- NOT in live_scan
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
+<<<<<<< HEAD
   SHORT PEPE/USDT      px 2.424e-06    0.54% under res | RSI59 ADX20 slope-5.37%   <-- NOT in live_scan
   SHORT ARB/USDT       px 0.0751       0.67% under res | RSI58 ADX24 slope-3.76%   <-- NOT in live_scan
   SHORT XRP/USDT       px 1.06002      0.67% under res | RSI59 ADX19 slope-2.86%
@@ -13,3 +20,11 @@ NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
   SHORT CC/USDT        px 0.15129      1.12% under res | RSI52 ADX16 slope-0.96%   <-- NOT in live_scan
   SHORT LTC/USDT       px 42.21        1.18% under res | RSI59 ADX17 slope-1.87%
   SHORT BONK/USDT      px 4.233e-06    1.42% under res | RSI57 ADX21 slope-2.92%   <-- NOT in live_scan
+=======
+  LONG  VERONA/USDT    px 0.1366       0.51% above sup | RSI44 ADX38 slope+1.39%   <-- NOT in live_scan
+  SHORT ARB/USDT       px 0.0751       0.80% under res | RSI58 ADX24 slope-3.71%   <-- NOT in live_scan
+  LONG  ICNT/USDT      px 0.22528      0.87% above sup | RSI46 ADX28 slope+7.48%   <-- NOT in live_scan
+  SHORT PEPE/USDT      px 2.414e-06    0.95% under res | RSI55 ADX17 slope-5.33%   <-- NOT in live_scan
+  SHORT KONET/USDT     px 0.03177      1.01% under res | RSI55 ADX33 slope-6.23%   <-- NOT in live_scan
+  SHORT NEAR/USDT      px 1.8185       1.14% under res | RSI52 ADX15 slope-5.09%
+>>>>>>> c443907 (local scan batch 2026-06-27T14:09Z)
