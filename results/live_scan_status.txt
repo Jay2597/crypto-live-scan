@@ -1,12 +1,8 @@
-LIVE SCAN heartbeat 2026-06-29 23:03 UTC | source kucoin | last closed 1h bar 2026-06-29 21:00:00+00:00
-fired this scan: 1 (new logged: 1) | watchlist: 4
+LIVE SCAN heartbeat 2026-06-30 02:03 UTC | source kucoin | last closed 1h bar 2026-06-30 00:00:00+00:00
+fired this scan: 0 (new logged: 0) | watchlist: 2
 
-  FIRED SHORT BNB/USDT @ 559.966 score 4.14
+  no fired signals — FLAT
 
 WATCHLIST:
-  SHORT BTC/USDT   px 60349.2     0.71% under res | RSI56 ADX21 slope-1.17%
-  SHORT DOGE/USDT  px 0.07345     1.09% under res | RSI52 ADX24 slope-2.63%
-  SHORT LINK/USDT  px 7.413       1.19% under res | RSI57 ADX19 slope-1.36%
-  SHORT RUNE/USDT  px 0.3881      1.13% under res | RSI51 ADX25 slope-1.50%
-
-PAPER: opened 1 position(s): BNB/USDT
+  SHORT BNB/USDT   px 555.916     1.21% under res | RSI49 ADX23 slope-1.32%
+  SHORT BTC/USDT   px 59940       1.39% under res | RSI48 ADX19 slope-1.14%
