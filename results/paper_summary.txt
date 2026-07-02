@@ -1,8 +1,8 @@
-PAPER-TRADE SUMMARY  (updated 2026-07-02 14:03 UTC)
+PAPER-TRADE SUMMARY  (updated 2026-07-02 17:03 UTC)
 closed trades: 2 | wins: 0 | win%: 0.0
 total R: -2.34 | total P&L: Rs -2340.98 | profit factor: 0.0
 open positions: 2
 
 OPEN (marked to last close):
-  SHORT BNB/USDT entry 559.686017 sl 571.71578147 tp 523.59672359 since 2026-06-29 22:00:00+00:00 | MTM Rs -493.83 (-0.45R)
-  SHORT TRX/USDT entry 0.31774105 sl 0.32086474 tp 0.30836999 since 2026-07-01 15:00:00+00:00 | MTM Rs -408.71 (-0.31R)
+  SHORT BNB/USDT entry 559.686017 sl 571.71578147 tp 523.59672359 since 2026-06-29 22:00:00+00:00 | MTM Rs -217.52 (-0.17R)
+  SHORT TRX/USDT entry 0.31774105 sl 0.32086474 tp 0.30836999 since 2026-07-01 15:00:00+00:00 | MTM Rs -184.62 (-0.08R)
