@@ -1,7 +1,8 @@
-LIVE SCAN heartbeat 2026-07-02 20:03 UTC | source kucoin | last closed 1h bar 2026-07-02 18:00:00+00:00
-fired this scan: 0 (new logged: 0) | watchlist: 1
+LIVE SCAN heartbeat 2026-07-02 23:03 UTC | source kucoin | last closed 1h bar 2026-07-02 22:00:00+00:00
+fired this scan: 0 (new logged: 0) | watchlist: 2
 
   no fired signals — FLAT
 
 WATCHLIST:
-  SHORT TRX/USDT   px 0.3175      0.66% under res | RSI51 ADX25 slope-0.71%
+  LONG  SUI/USDT   px 0.7327      1.46% above sup | RSI52 ADX35 slope+1.28%
+  SHORT TRX/USDT   px 0.3176      0.63% under res | RSI52 ADX25 slope-0.67%
