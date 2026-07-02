@@ -1,13 +1,10 @@
-BROAD SWEEP 2026-07-01 08:19 UTC | source kucoin | last closed 1h bar 2026-07-01 07:00:00+00:00
-scanned 101 pairs (0 fetch errors) | fired 0 | near-trigger 7
+BROAD SWEEP 2026-07-02 07:39 UTC | source kucoin | last closed 1h bar 2026-07-02 06:00:00+00:00
+scanned 105 pairs (0 fetch errors) | fired 0 | near-trigger 4
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  ADI/USDT       px 5.511        0.08% above sup | RSI53 ADX71 slope+7.73%   <-- NOT in live_scan
-  SHORT SHIB/USDT      px 4.232e-06    0.78% under res | RSI52 ADX17 slope-1.41%   <-- NOT in live_scan
-  SHORT XRP/USDT       px 1.04404      0.97% under res | RSI49 ADX16 slope-1.18%
-  SHORT BNB/USDT       px 546.977      1.07% under res | RSI45 ADX28 slope-1.22%
-  SHORT LUNC/USDT      px 6.026e-05    1.15% under res | RSI59 ADX27 slope-2.32%   <-- NOT in live_scan
-  SHORT YOM/USDT       px 0.08701      1.15% under res | RSI59 ADX22 slope-0.68%   <-- NOT in live_scan
-  SHORT BTC/USDT       px 58770.2      1.18% under res | RSI44 ADX32 slope-1.23%
+  SHORT GRAM/USDT      px 1.565        0.89% under res | RSI52 ADX16 slope-0.88%   <-- NOT in live_scan
+  LONG  XLM/USDT       px 0.1951       1.28% above sup | RSI47 ADX27 slope+2.17%   <-- NOT in live_scan
+  SHORT PEPE/USDT      px 2.365e-06    1.35% under res | RSI55 ADX19 slope-2.60%   <-- NOT in live_scan
+  LONG  ADI/USDT       px 5.5977       1.46% above sup | RSI52 ADX81 slope+7.04%   <-- NOT in live_scan
