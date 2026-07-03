@@ -1,0 +1,110 @@
+{
+ "ALUMINI": {
+  "token": 143883783,
+  "expiry": "2026-07-31",
+  "tsym": "ALUMINI26JULFUT",
+  "lot": 1
+ },
+ "ALUMINIUM": {
+  "token": 143884039,
+  "expiry": "2026-07-31",
+  "tsym": "ALUMINIUM26JULFUT",
+  "lot": 1
+ },
+ "COPPER": {
+  "token": 143884295,
+  "expiry": "2026-07-31",
+  "tsym": "COPPER26JULFUT",
+  "lot": 1
+ },
+ "CRUDEOIL": {
+  "token": 133299719,
+  "expiry": "2026-07-20",
+  "tsym": "CRUDEOIL26JULFUT",
+  "lot": 1
+ },
+ "CRUDEOILM": {
+  "token": 133299975,
+  "expiry": "2026-07-20",
+  "tsym": "CRUDEOILM26JULFUT",
+  "lot": 1
+ },
+ "GOLD": {
+  "token": 119445255,
+  "expiry": "2026-08-05",
+  "tsym": "GOLD26AUGFUT",
+  "lot": 1
+ },
+ "GOLDM": {
+  "token": 142316039,
+  "expiry": "2026-08-05",
+  "tsym": "GOLDM26AUGFUT",
+  "lot": 1
+ },
+ "GOLDPETAL": {
+  "token": 141496583,
+  "expiry": "2026-07-31",
+  "tsym": "GOLDPETAL26JULFUT",
+  "lot": 1
+ },
+ "LEAD": {
+  "token": 143884551,
+  "expiry": "2026-07-31",
+  "tsym": "LEAD26JULFUT",
+  "lot": 1
+ },
+ "LEADMINI": {
+  "token": 143884807,
+  "expiry": "2026-07-31",
+  "tsym": "LEADMINI26JULFUT",
+  "lot": 1
+ },
+ "NATGASMINI": {
+  "token": 137903623,
+  "expiry": "2026-07-28",
+  "tsym": "NATGASMINI26JULFUT",
+  "lot": 1
+ },
+ "NATURALGAS": {
+  "token": 137903367,
+  "expiry": "2026-07-28",
+  "tsym": "NATURALGAS26JULFUT",
+  "lot": 1
+ },
+ "NICKEL": {
+  "token": 143885063,
+  "expiry": "2026-07-15",
+  "tsym": "NICKEL26JULFUT",
+  "lot": 1
+ },
+ "SILVER": {
+  "token": 120761607,
+  "expiry": "2026-09-04",
+  "tsym": "SILVER26SEPFUT",
+  "lot": 1
+ },
+ "SILVERM": {
+  "token": 120761863,
+  "expiry": "2026-08-31",
+  "tsym": "SILVERM26AUGFUT",
+  "lot": 1
+ },
+ "SILVERMIC": {
+  "token": 125129735,
+  "expiry": "2026-08-31",
+  "tsym": "SILVERMIC26AUGFUT",
+  "lot": 1
+ },
+ "ZINC": {
+  "token": 143885575,
+  "expiry": "2026-07-31",
+  "tsym": "ZINC26JULFUT",
+  "lot": 1
+ },
+ "ZINCMINI": {
+  "token": 143885831,
+  "expiry": "2026-07-31",
+  "tsym": "ZINCMINI26JULFUT",
+  "lot": 1
+ }
+}
