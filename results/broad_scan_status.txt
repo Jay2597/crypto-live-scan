@@ -1,10 +1,13 @@
-BROAD SWEEP 2026-07-02 07:39 UTC | source kucoin | last closed 1h bar 2026-07-02 06:00:00+00:00
-scanned 105 pairs (0 fetch errors) | fired 0 | near-trigger 4
+BROAD SWEEP 2026-07-03 07:31 UTC | source kucoin | last closed 1h bar 2026-07-03 06:00:00+00:00
+scanned 105 pairs (0 fetch errors) | fired 0 | near-trigger 7
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT GRAM/USDT      px 1.565        0.89% under res | RSI52 ADX16 slope-0.88%   <-- NOT in live_scan
-  LONG  XLM/USDT       px 0.1951       1.28% above sup | RSI47 ADX27 slope+2.17%   <-- NOT in live_scan
-  SHORT PEPE/USDT      px 2.365e-06    1.35% under res | RSI55 ADX19 slope-2.60%   <-- NOT in live_scan
-  LONG  ADI/USDT       px 5.5977       1.46% above sup | RSI52 ADX81 slope+7.04%   <-- NOT in live_scan
+  SHORT SEI/USDT       px 0.04891      0.90% under res | RSI59 ADX25 slope-2.51%   <-- NOT in live_scan
+  LONG  BDX/USDT       px 0.08778      0.93% above sup | RSI49 ADX45 slope+1.04%   <-- NOT in live_scan
+  LONG  SOL/USDT       px 80.98        1.07% above sup | RSI58 ADX37 slope+3.90%
+  LONG  ONDO/USDT      px 0.33043      1.25% above sup | RSI52 ADX26 slope+1.15%   <-- NOT in live_scan
+  LONG  KAS/USDT       px 0.03099      1.29% above sup | RSI51 ADX31 slope+2.60%   <-- NOT in live_scan
+  LONG  XLM/USDT       px 0.1988       1.36% above sup | RSI51 ADX21 slope+3.12%   <-- NOT in live_scan
+  LONG  SUI/USDT       px 0.7395       1.42% above sup | RSI56 ADX32 slope+1.65%
