@@ -104,7 +104,8 @@ def run():
     S,nifty=build()
     nidx={dt:i for i,dt in enumerate(nifty["d"])}
     # generate raw entry signals per stock (no overlap handled in portfolio)
-    cal=sorted(nidx)                       # trading calendar from NIFTY
+    start=os.environ.get("SWING_START","")  # optional sim start date (indicators still use full history)
+    cal=sorted(dt for dt in nidx if dt>=start)
     idxmap={s:{P["d"][i]:i for i in range(len(P["d"]))} for s,P in S.items()}
     # portfolio sim
     cash=CFG["CAP0"]; equity=CFG["CAP0"]; positions={}   # sym -> dict
@@ -166,7 +167,15 @@ def run():
             px=S[s]["c"][i] if i is not None else pos["entry"]
             mtm+=px*pos["qty"]
         equity=mtm; eq_curve.append((dt,equity))
-    return trades,eq_curve,nifty
+    open_pos={}
+    if cal:
+        last=cal[-1]
+        for s,pos in positions.items():
+            i=idxmap[s].get(last)
+            px=S[s]["c"][i] if i is not None else pos["entry"]
+            open_pos[s]=dict(**pos,last=px,mtmpct=(px/pos["entry"]-1)*100,
+                             mtm=(px-pos["entry"])*pos["qty"]-pos["buycost"])
+    return trades,eq_curve,nifty,open_pos
 
 def metrics(trades,eq,nifty):
     if not trades: print("no trades"); return
@@ -225,9 +234,9 @@ if __name__=="__main__":
             for mode,en in (("donchlow",10),("donchlow",20),("chandelier",22)):
                 for ast in (2.0,3.0):
                     CFG["DONCH_N"]=dn; CFG["EXIT_MODE"]=mode; CFG["EXIT_N"]=en; CFG["ATR_STOP"]=ast
-                    t,e,nf=run()
+                    t,e,nf,_=run()
                     print(f"{dn:>10} {mode:>11} {en:>5} {ast:>7}  {quick(t,e,nf)}")
     else:
         print(f"DAILY SWING-MOMENTUM | Donchian{CFG['DONCH_N']} | exit {CFG['EXIT_MODE']}{CFG['EXIT_N']} "
               f"| trend SMA{CFG['SMA_TREND']}+Nifty | 23 stocks 2021-2026")
-        t,e,nf=run(); metrics(t,e,nf)
+        t,e,nf,_=run(); metrics(t,e,nf)

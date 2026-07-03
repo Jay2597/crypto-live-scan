@@ -106,7 +106,7 @@ def run(S, nifty):
     trades, eq_curve = [], []
     for day_no, dt in enumerate(cal):
         # ---- 1. execute pending orders at today's open ----
-        for sym in pending_sells:
+        for sym, reason in pending_sells:
             P = S[sym]
             i = P["idx"].get(dt)
             if i is None or sym not in positions:
@@ -117,7 +117,7 @@ def run(S, nifty):
             cash += px * pos["qty"] - sc
             net = (px - pos["entry"]) * pos["qty"] - pos["buycost"] - sc
             trades.append(dict(sym=sym, ein=pos["edate"], xout=dt, entry=pos["entry"], exit=px,
-                               qty=pos["qty"], net=net,
+                               qty=pos["qty"], net=net, reason=reason,
                                retpct=net / (pos["entry"] * pos["qty"]) * 100))
         if pending_buys:
             slot = (cash + sum(S[s]["c"][S[s]["idx"][dt]] * p["qty"]
@@ -147,7 +147,7 @@ def run(S, nifty):
             market_ok = (not CFG["USE_MARKET_FILTER"]) or (
                 nifty["sma200"][ni] is not None and nifty["c"][ni] > nifty["sma200"][ni])
             if not market_ok:
-                pending_sells = list(positions)
+                pending_sells = [(sym, "MKT_GATE") for sym in positions]
             else:
                 scored = []
                 for sym, P in S.items():
@@ -160,7 +160,7 @@ def run(S, nifty):
                 scored.sort(reverse=True)
                 top = [sym for _, sym in scored[:CFG["TOP_N"]]]
                 keep = {sym for _, sym in scored[:int(CFG["BUFFER"] * CFG["TOP_N"])]}
-                pending_sells = [sym for sym in positions if sym not in keep]
+                pending_sells = [(sym, "ROTATION") for sym in positions if sym not in keep]
                 slots = CFG["TOP_N"] - (len(positions) - len(pending_sells))
                 pending_buys = [sym for sym in top if sym not in positions][:max(0, slots)]
 
@@ -170,7 +170,16 @@ def run(S, nifty):
             i = S[sym]["idx"].get(dt)
             mtm += (S[sym]["c"][i] if i is not None else pos["entry"]) * pos["qty"]
         eq_curve.append((dt, mtm))
-    return trades, eq_curve
+    open_pos = {}
+    if cal:
+        last = cal[-1]
+        for sym, pos in positions.items():
+            i = S[sym]["idx"].get(last)
+            px = S[sym]["c"][i] if i is not None else pos["entry"]
+            open_pos[sym] = dict(**pos, last=px,
+                                 mtmpct=(px / pos["entry"] - 1) * 100,
+                                 mtm=(px - pos["entry"]) * pos["qty"] - pos["buycost"])
+    return trades, eq_curve, open_pos
 
 
 def perf(eq):
@@ -241,13 +250,18 @@ def main():
                     CFG["MOM_LB"] = lb
                     CFG["TOP_N"] = tn
                     CFG["REBAL_DAYS"] = rb
-                    t, e = run(S, nifty)
+                    t, e, _ = run(S, nifty)
                     cagr, dd, sh, _ = perf(e)
                     print(f"{lb:>6} {tn:>5} {rb:>6}  {cagr*100:+5.1f}%  {sh:5.2f}  {dd*100:5.1f}%"
                           f"   ({n_c*100:+.1f}% / {ew_c*100:+.1f}%)")
     else:
-        t, e = run(S, nifty)
+        t, e, op = run(S, nifty)
         report(t, e, S, nifty)
+        if op:
+            print("  OPEN at window end:")
+            for sym, p in op.items():
+                print(f"    {sym:<12} entry {p['edate']} @{p['entry']:.1f} "
+                      f"last {p['last']:.1f}  MTM {p['mtmpct']:+.1f}% Rs{p['mtm']:,.0f}")
 
 
 if __name__ == "__main__":
