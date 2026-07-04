@@ -1,13 +1,16 @@
-BROAD SWEEP 2026-07-03 07:31 UTC | source kucoin | last closed 1h bar 2026-07-03 06:00:00+00:00
-scanned 105 pairs (0 fetch errors) | fired 0 | near-trigger 7
+BROAD SWEEP 2026-07-04 06:55 UTC | source kucoin | last closed 1h bar 2026-07-04 05:00:00+00:00
+scanned 101 pairs (0 fetch errors) | fired 0 | near-trigger 10
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT SEI/USDT       px 0.04891      0.90% under res | RSI59 ADX25 slope-2.51%   <-- NOT in live_scan
-  LONG  BDX/USDT       px 0.08778      0.93% above sup | RSI49 ADX45 slope+1.04%   <-- NOT in live_scan
-  LONG  SOL/USDT       px 80.98        1.07% above sup | RSI58 ADX37 slope+3.90%
-  LONG  ONDO/USDT      px 0.33043      1.25% above sup | RSI52 ADX26 slope+1.15%   <-- NOT in live_scan
-  LONG  KAS/USDT       px 0.03099      1.29% above sup | RSI51 ADX31 slope+2.60%   <-- NOT in live_scan
-  LONG  XLM/USDT       px 0.1988       1.36% above sup | RSI51 ADX21 slope+3.12%   <-- NOT in live_scan
-  LONG  SUI/USDT       px 0.7395       1.42% above sup | RSI56 ADX32 slope+1.65%
+  LONG  PAXG/USDT      px 4162.51      0.26% above sup | RSI54 ADX21 slope+0.84%   <-- NOT in live_scan
+  LONG  RENDER/USDT    px 1.595        0.50% above sup | RSI45 ADX27 slope+0.90%   <-- NOT in live_scan
+  LONG  ASTER/USDT     px 0.6423       0.53% above sup | RSI44 ADX25 slope+0.87%   <-- NOT in live_scan
+  LONG  ICP/USDT       px 2.222        0.59% above sup | RSI48 ADX16 slope+0.84%   <-- NOT in live_scan
+  LONG  DASH/USDT      px 35.4         0.68% above sup | RSI47 ADX34 slope+1.93%   <-- NOT in live_scan
+  LONG  FET/USDT       px 0.1861       0.70% above sup | RSI47 ADX31 slope+1.90%   <-- NOT in live_scan
+  LONG  UNI/USDT       px 3.2003       0.89% above sup | RSI49 ADX35 slope+4.01%
+  LONG  SNX/USDT       px 0.235        1.11% above sup | RSI48 ADX46 slope+2.55%   <-- NOT in live_scan
+  LONG  BTC/USDT       px 62466.8      1.27% above sup | RSI57 ADX42 slope+0.94%
+  LONG  NEAR/USDT      px 1.9993       1.48% above sup | RSI48 ADX29 slope+1.98%
