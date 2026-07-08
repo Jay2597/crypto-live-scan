@@ -1,10 +1,10 @@
-BROAD SWEEP 2026-07-07 07:50 UTC | source kucoin | last closed 1h bar 2026-07-07 06:00:00+00:00
-scanned 100 pairs (0 fetch errors) | fired 0 | near-trigger 4
+BROAD SWEEP 2026-07-08 06:36 UTC | source kucoin | last closed 1h bar 2026-07-08 05:00:00+00:00
+scanned 111 pairs (0 fetch errors) | fired 1 | near-trigger 3
 
-FIRED SIGNALS: none
+FIRED SIGNALS:
+  FIRED LONG  ADI/USDT       @ 5.8294 score 3.64  <-- NOT in live_scan
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  PLUME/USDT     px 0.010721     1.01% above sup | RSI50 ADX26 slope+1.54%   <-- NOT in live_scan
-  LONG  TRX/USDT       px 0.3298       1.03% above sup | RSI57 ADX22 slope+0.85%
-  LONG  AVAX/USDT      px 6.779        1.21% above sup | RSI40 ADX16 slope+1.05%
-  SHORT RAIN/USDT      px 0.015088     1.23% under res | RSI51 ADX30 slope-0.99%   <-- NOT in live_scan
+  LONG  XPR/USDT       px 0.0021047    0.77% above sup | RSI41 ADX16 slope+1.09%   <-- NOT in live_scan
+  LONG  CHIP/USDT      px 0.032774     0.82% above sup | RSI40 ADX29 slope+3.40%   <-- NOT in live_scan
+  LONG  BCH/USDT       px 237.27       1.03% above sup | RSI43 ADX17 slope+3.74%   <-- NOT in live_scan
