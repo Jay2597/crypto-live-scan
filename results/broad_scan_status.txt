@@ -1,12 +1,15 @@
-BROAD SWEEP 2026-07-17 06:24 UTC | source kucoin | last closed 1h bar 2026-07-17 05:00:00+00:00
-scanned 97 pairs (0 fetch errors) | fired 0 | near-trigger 6
+BROAD SWEEP 2026-07-18 06:13 UTC | source kucoin | last closed 1h bar 2026-07-18 05:00:00+00:00
+scanned 94 pairs (0 fetch errors) | fired 0 | near-trigger 9
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  ONDO/USDT      px 0.36226      0.62% above sup | RSI46 ADX27 slope+4.69%   <-- NOT in live_scan
-  LONG  PEPE/USDT      px 2.734e-06    0.95% above sup | RSI46 ADX17 slope+0.75%   <-- NOT in live_scan
-  LONG  TOWNS/USDT     px 0.002072     1.16% above sup | RSI46 ADX21 slope+2.58%   <-- NOT in live_scan
-  SHORT XAUT/USDT      px 3988.73      1.25% under res | RSI43 ADX22 slope-0.56%   <-- NOT in live_scan
-  SHORT BCH/USDT       px 222.18       1.26% under res | RSI43 ADX19 slope-1.90%   <-- NOT in live_scan
-  SHORT PAXG/USDT      px 3985.52      1.30% under res | RSI43 ADX21 slope-0.60%   <-- NOT in live_scan
+  LONG  VIRTUAL/USDT   px 0.6165       0.21% above sup | RSI40 ADX16 slope+3.67%   <-- NOT in live_scan
+  SHORT HBAR/USDT      px 0.06615      0.57% under res | RSI47 ADX18 slope-1.22%   <-- NOT in live_scan
+  SHORT ICP/USDT       px 2.159        0.60% under res | RSI59 ADX20 slope-1.39%   <-- NOT in live_scan
+  SHORT SOL/USDT       px 74.94        0.85% under res | RSI45 ADX19 slope-1.06%
+  SHORT TAO/USDT       px 193.75       0.86% under res | RSI51 ADX18 slope-2.23%   <-- NOT in live_scan
+  SHORT KAS/USDT       px 0.02785      1.01% under res | RSI43 ADX16 slope-1.28%   <-- NOT in live_scan
+  SHORT DOGE/USDT      px 0.07222      1.07% under res | RSI44 ADX19 slope-0.59%
+  LONG  KAITO/USDT     px 0.8352       1.14% above sup | RSI43 ADX18 slope+8.37%   <-- NOT in live_scan
+  SHORT SHIB/USDT      px 4.155e-06    1.30% under res | RSI51 ADX15 slope-1.07%   <-- NOT in live_scan
