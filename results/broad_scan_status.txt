@@ -1,16 +1,11 @@
-BROAD SWEEP 2026-07-19 06:39 UTC | source kucoin | last closed 1h bar 2026-07-19 05:00:00+00:00
-scanned 79 pairs (0 fetch errors) | fired 0 | near-trigger 10
+BROAD SWEEP 2026-07-20 07:21 UTC | source kucoin | last closed 1h bar 2026-07-20 06:00:00+00:00
+scanned 78 pairs (0 fetch errors) | fired 0 | near-trigger 5
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  NKN/USDT       px 0.00743      0.00% above sup | RSI41 ADX30 slope+21.86%   <-- NOT in live_scan
-  SHORT CC/USDT        px 0.12567      0.43% under res | RSI49 ADX23 slope-2.36%   <-- NOT in live_scan
-  LONG  MYRO/USDT      px 0.002488     0.60% above sup | RSI40 ADX26 slope+4.92%   <-- NOT in live_scan
-  SHORT WLD/USDT       px 0.3772       0.61% under res | RSI52 ADX23 slope-2.49%   <-- NOT in live_scan
-  SHORT DOGE/USDT      px 0.07237      0.64% under res | RSI48 ADX15 slope-0.69%
-  SHORT HBAR/USDT      px 0.06677      0.99% under res | RSI52 ADX19 slope-1.12%   <-- NOT in live_scan
-  SHORT NEAR/USDT      px 1.9268       0.99% under res | RSI50 ADX17 slope-1.07%
-  LONG  INJ/USDT       px 5.106        1.25% above sup | RSI48 ADX19 slope+1.24%
-  LONG  PUMP/USDT      px 0.001651     1.33% above sup | RSI51 ADX18 slope+2.41%   <-- NOT in live_scan
-  LONG  LINK/USDT      px 8.3448       1.38% above sup | RSI56 ADX27 slope+0.64%
+  LONG  LINK/USDT      px 8.3077       0.25% above sup | RSI42 ADX27 slope+0.92%
+  LONG  PEPE/USDT      px 2.824e-06    0.60% above sup | RSI48 ADX34 slope+0.96%   <-- NOT in live_scan
+  LONG  LTC/USDT       px 46.81        0.75% above sup | RSI44 ADX37 slope+1.95%
+  LONG  XMR/USDT       px 332.82       1.02% above sup | RSI44 ADX20 slope+0.80%   <-- NOT in live_scan
+  SHORT SHIB/USDT      px 4.141e-06    1.35% under res | RSI46 ADX15 slope-0.63%   <-- NOT in live_scan
