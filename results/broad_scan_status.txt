@@ -1,10 +1,20 @@
-BROAD SWEEP 2026-07-21 06:37 UTC | source kucoin | last closed 1h bar 2026-07-21 05:00:00+00:00
-scanned 93 pairs (0 fetch errors) | fired 0 | near-trigger 4
+BROAD SWEEP 2026-07-22 06:39 UTC | source kucoin | last closed 1h bar 2026-07-22 05:00:00+00:00
+scanned 84 pairs (0 fetch errors) | fired 0 | near-trigger 14
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT ATOM/USDT      px 1.503        0.27% under res | RSI60 ADX25 slope-1.32%   <-- NOT in live_scan
-  SHORT HBAR/USDT      px 0.06706      0.30% under res | RSI58 ADX19 slope-0.64%   <-- NOT in live_scan
-  SHORT GRAM/USDT      px 1.457        0.41% under res | RSI60 ADX16 slope-3.03%   <-- NOT in live_scan
-  SHORT DATA/USDT      px 0.2698       1.00% under res | RSI51 ADX20 slope-1.08%   <-- NOT in live_scan
+  LONG  ADA/USDT       px 0.1714       0.00% above sup | RSI42 ADX32 slope+1.45%
+  LONG  SOL/USDT       px 77.43        0.03% above sup | RSI41 ADX16 slope+0.73%
+  LONG  BTC/USDT       px 65978.9      0.05% above sup | RSI46 ADX29 slope+1.08%
+  LONG  VIRTUAL/USDT   px 0.6468       0.12% above sup | RSI42 ADX22 slope+3.02%   <-- NOT in live_scan
+  LONG  SHIB/USDT      px 4.233e-06    0.19% above sup | RSI40 ADX16 slope+0.53%   <-- NOT in live_scan
+  LONG  SUI/USDT       px 0.761        0.25% above sup | RSI41 ADX16 slope+1.21%
+  LONG  ETH/USDT       px 1919.34      0.27% above sup | RSI47 ADX31 slope+1.53%
+  LONG  XRP/USDT       px 1.13336      0.31% above sup | RSI45 ADX33 slope+1.13%
+  LONG  XLM/USDT       px 0.1893       0.37% above sup | RSI41 ADX27 slope+0.65%   <-- NOT in live_scan
+  LONG  LINK/USDT      px 8.6327       0.49% above sup | RSI47 ADX21 slope+1.82%
+  LONG  YOM/USDT       px 0.10093      0.66% above sup | RSI45 ADX26 slope+1.21%   <-- NOT in live_scan
+  LONG  INJ/USDT       px 5.311        0.68% above sup | RSI46 ADX21 slope+2.45%
+  LONG  UNI/USDT       px 3.6834       1.33% above sup | RSI51 ADX25 slope+1.16%
+  SHORT DATA/USDT      px 0.2683       1.34% under res | RSI43 ADX20 slope-0.99%   <-- NOT in live_scan
