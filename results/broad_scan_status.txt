@@ -1,15 +1,14 @@
-BROAD SWEEP 2026-08-03 07:38 UTC | source kucoin | last closed 1h bar 2026-08-03 06:00:00+00:00
-scanned 82 pairs (0 fetch errors) | fired 0 | near-trigger 9
+BROAD SWEEP 2026-08-04 06:36 UTC | source kucoin | last closed 1h bar 2026-08-04 05:00:00+00:00
+scanned 85 pairs (0 fetch errors) | fired 0 | near-trigger 8
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  ADA/USDT       px 0.1839       0.22% above sup | RSI46 ADX37 slope+3.80%
-  LONG  XPR/USDT       px 0.0025944    0.45% above sup | RSI48 ADX18 slope+0.70%   <-- NOT in live_scan
-  SHORT ATOM/USDT      px 1.2659       0.59% under res | RSI60 ADX25 slope-2.31%   <-- NOT in live_scan
-  SHORT NEAR/USDT      px 1.7114       0.82% under res | RSI55 ADX17 slope-0.68%
-  SHORT ASTER/USDT     px 0.6012       0.98% under res | RSI44 ADX16 slope-0.69%   <-- NOT in live_scan
-  LONG  ENA/USDT       px 0.0879       1.02% above sup | RSI54 ADX36 slope+1.17%   <-- NOT in live_scan
-  LONG  INJ/USDT       px 4.962        1.09% above sup | RSI43 ADX26 slope+0.71%
-  LONG  UNI/USDT       px 4.1385       1.20% above sup | RSI45 ADX27 slope+1.43%
-  SHORT HYPE/USDT      px 52.263       1.49% under res | RSI48 ADX18 slope-2.81%   <-- NOT in live_scan
+  SHORT XDC/USDT       px 0.02635      0.11% under res | RSI59 ADX20 slope-1.19%   <-- NOT in live_scan
+  SHORT LTC/USDT       px 44.49        0.13% under res | RSI54 ADX22 slope-0.87%
+  LONG  PIEVERSE/USDT  px 0.738        0.14% above sup | RSI40 ADX18 slope+5.23%   <-- NOT in live_scan
+  SHORT SEI/USDT       px 0.04176      0.45% under res | RSI58 ADX30 slope-1.40%   <-- NOT in live_scan
+  LONG  YOM/USDT       px 0.10354      0.85% above sup | RSI56 ADX55 slope+0.55%   <-- NOT in live_scan
+  LONG  BNB/USDT       px 589.746      0.94% above sup | RSI52 ADX19 slope+0.67%
+  SHORT WIF/USDT       px 0.1419       1.06% under res | RSI59 ADX21 slope-1.66%   <-- NOT in live_scan
+  SHORT KAS/USDT       px 0.02609      1.38% under res | RSI45 ADX33 slope-1.75%   <-- NOT in live_scan
