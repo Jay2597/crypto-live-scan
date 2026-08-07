@@ -1,18 +1,12 @@
-BROAD SWEEP 2026-08-06 06:40 UTC | source kucoin | last closed 1h bar 2026-08-06 05:00:00+00:00
-scanned 91 pairs (0 fetch errors) | fired 0 | near-trigger 12
+BROAD SWEEP 2026-08-07 05:47 UTC | source kucoin | last closed 1h bar 2026-08-07 04:00:00+00:00
+scanned 100 pairs (0 fetch errors) | fired 0 | near-trigger 6
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  PIEVERSE/USDT  px 0.768        0.01% above sup | RSI41 ADX22 slope+4.48%   <-- NOT in live_scan
-  SHORT ADI/USDT       px 6.9042       0.06% under res | RSI53 ADX69 slope-0.54%   <-- NOT in live_scan
-  LONG  DOT/USDT       px 0.8384       0.30% above sup | RSI41 ADX20 slope+2.61%
-  LONG  HYPE/USDT      px 56.507       0.70% above sup | RSI48 ADX24 slope+1.27%   <-- NOT in live_scan
-  LONG  ZEC/USDT       px 509.655      0.74% above sup | RSI46 ADX29 slope+2.39%   <-- NOT in live_scan
-  LONG  BNB/USDT       px 596.914      0.84% above sup | RSI51 ADX19 slope+0.98%
-  LONG  YOM/USDT       px 0.10731      1.10% above sup | RSI54 ADX92 slope+1.55%   <-- NOT in live_scan
-  SHORT WIF/USDT       px 0.141        1.13% under res | RSI52 ADX20 slope-0.74%   <-- NOT in live_scan
-  LONG  ADA/USDT       px 0.1882       1.17% above sup | RSI40 ADX16 slope+3.61%
-  LONG  ULTIMA/USDT    px 2400.9       1.18% above sup | RSI47 ADX22 slope+1.29%   <-- NOT in live_scan
-  SHORT GRAM/USDT      px 1.397        1.36% under res | RSI50 ADX18 slope-0.83%   <-- NOT in live_scan
-  LONG  ZRO/USDT       px 0.7787       1.46% above sup | RSI51 ADX16 slope+0.68%   <-- NOT in live_scan
+  LONG  XAUT/USDT      px 4250.84      0.95% above sup | RSI58 ADX23 slope+1.67%   <-- NOT in live_scan
+  SHORT RSR/USDT       px 0.001225     0.98% under res | RSI50 ADX16 slope-1.06%   <-- NOT in live_scan
+  LONG  PAXG/USDT      px 4263.3       1.00% above sup | RSI58 ADX24 slope+1.72%   <-- NOT in live_scan
+  SHORT AAVE/USDT      px 90.182       1.15% under res | RSI56 ADX21 slope-1.63%   <-- NOT in live_scan
+  LONG  CASHCAT/USDT   px 0.0894       1.34% above sup | RSI40 ADX26 slope+40.83%   <-- NOT in live_scan
+  LONG  PIEVERSE/USDT  px 0.7545       1.40% above sup | RSI42 ADX16 slope+3.08%   <-- NOT in live_scan
