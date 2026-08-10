@@ -1,17 +1,21 @@
-BROAD SWEEP 2026-08-09 05:13 UTC | source kucoin | last closed 1h bar 2026-08-09 04:00:00+00:00
-scanned 98 pairs (0 fetch errors) | fired 0 | near-trigger 11
+BROAD SWEEP 2026-08-10 05:40 UTC | source kucoin | last closed 1h bar 2026-08-10 04:00:00+00:00
+scanned 103 pairs (0 fetch errors) | fired 0 | near-trigger 15
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  ETH/USDT       px 1913.3       0.03% above sup | RSI41 ADX26 slope+0.62%
-  LONG  XAUT/USDT      px 4330.93      0.12% above sup | RSI57 ADX34 slope+1.95%   <-- NOT in live_scan
-  SHORT ZIG/USDT       px 0.03991      0.48% under res | RSI48 ADX44 slope-0.52%   <-- NOT in live_scan
-  SHORT NEAR/USDT      px 1.6232       0.86% under res | RSI53 ADX17 slope-2.15%
-  SHORT WLD/USDT       px 0.3075       0.91% under res | RSI55 ADX18 slope-1.51%   <-- NOT in live_scan
-  LONG  LTC/USDT       px 45.94        1.02% above sup | RSI56 ADX25 slope+0.53%
-  SHORT XRP/USDT       px 1.03762      1.06% under res | RSI49 ADX16 slope-1.27%
-  LONG  BNB/USDT       px 601.171      1.20% above sup | RSI56 ADX40 slope+0.51%
-  SHORT AAVE/USDT      px 90.926       1.25% under res | RSI52 ADX19 slope-0.73%   <-- NOT in live_scan
-  SHORT CRO/USDT       px 0.04957      1.27% under res | RSI49 ADX23 slope-2.99%   <-- NOT in live_scan
-  SHORT SHIB/USDT      px 4.627e-06    1.43% under res | RSI45 ADX17 slope-1.51%   <-- NOT in live_scan
+  LONG  BNB/USDT       px 601.498      0.08% above sup | RSI42 ADX28 slope+0.91%
+  LONG  SOL/USDT       px 76.55        0.44% above sup | RSI49 ADX33 slope+1.38%
+  LONG  XAUT/USDT      px 4317.75      0.49% above sup | RSI42 ADX39 slope+1.63%   <-- NOT in live_scan
+  LONG  ETH/USDT       px 1915.81      0.55% above sup | RSI46 ADX28 slope+0.57%
+  LONG  PAXG/USDT      px 4333.03      0.58% above sup | RSI44 ADX48 slope+1.67%   <-- NOT in live_scan
+  LONG  YOM/USDT       px 0.10824      0.66% above sup | RSI48 ADX18 slope+1.09%   <-- NOT in live_scan
+  LONG  WIF/USDT       px 0.1422       0.77% above sup | RSI45 ADX22 slope+0.52%   <-- NOT in live_scan
+  LONG  PEPE/USDT      px 2.885e-06    0.87% above sup | RSI48 ADX38 slope+0.56%   <-- NOT in live_scan
+  SHORT GRAM/USDT      px 1.339        0.90% under res | RSI50 ADX19 slope-1.24%   <-- NOT in live_scan
+  LONG  TAO/USDT       px 201.95       0.94% above sup | RSI41 ADX34 slope+1.88%   <-- NOT in live_scan
+  SHORT TEA/USDT       px 4.391e-05    1.00% under res | RSI46 ADX25 slope-0.64%   <-- NOT in live_scan
+  SHORT XLM/USDT       px 0.1632       1.04% under res | RSI50 ADX15 slope-0.98%   <-- NOT in live_scan
+  SHORT TAG/USDT       px 0.0012143    1.28% under res | RSI53 ADX17 slope-1.35%   <-- NOT in live_scan
+  SHORT SHIB/USDT      px 4.66e-06     1.31% under res | RSI53 ADX18 slope-1.11%   <-- NOT in live_scan
+  LONG  ADA/USDT       px 0.1964       1.43% above sup | RSI45 ADX18 slope+2.03%
