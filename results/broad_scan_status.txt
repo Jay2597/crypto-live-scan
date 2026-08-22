@@ -1,11 +1,9 @@
-BROAD SWEEP 2026-08-21 04:49 UTC | source kucoin | last closed 1h bar 2026-08-21 03:00:00+00:00
-scanned 121 pairs (0 fetch errors) | fired 0 | near-trigger 5
+BROAD SWEEP 2026-08-22 04:42 UTC | source kucoin | last closed 1h bar 2026-08-22 03:00:00+00:00
+scanned 150 pairs (0 fetch errors) | fired 0 | near-trigger 3
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  KONET/USDT     px 0.02032      0.15% above sup | RSI44 ADX21 slope+1.01%   <-- NOT in live_scan
-  LONG  RAIN/USDT      px 0.013882     0.17% above sup | RSI58 ADX43 slope+2.63%   <-- NOT in live_scan
-  LONG  NES/USDT       px 0.21619      0.45% above sup | RSI50 ADX24 slope+0.84%   <-- NOT in live_scan
-  LONG  ZRO/USDT       px 0.8602       0.62% above sup | RSI45 ADX24 slope+3.60%   <-- NOT in live_scan
-  SHORT TEA/USDT       px 3.828e-05    0.76% under res | RSI41 ADX33 slope-2.94%   <-- NOT in live_scan
+  LONG  ZIG/USDT       px 0.04015      0.40% above sup | RSI45 ADX43 slope+3.02%   <-- NOT in live_scan
+  LONG  XPR/USDT       px 0.0029459    0.91% above sup | RSI55 ADX41 slope+6.00%   <-- NOT in live_scan
+  SHORT TAG/USDT       px 0.0009451    1.22% under res | RSI57 ADX16 slope-3.61%   <-- NOT in live_scan
