@@ -1,9 +1,31 @@
-BROAD SWEEP 2026-08-22 04:42 UTC | source kucoin | last closed 1h bar 2026-08-22 03:00:00+00:00
-scanned 150 pairs (0 fetch errors) | fired 0 | near-trigger 3
+BROAD SWEEP 2026-08-23 04:47 UTC | source kucoin | last closed 1h bar 2026-08-23 03:00:00+00:00
+scanned 150 pairs (0 fetch errors) | fired 1 | near-trigger 24
 
-FIRED SIGNALS: none
+FIRED SIGNALS:
+  FIRED LONG  MTL/USDT       @ 0.227 score 4.5  <-- NOT in live_scan
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  ZIG/USDT       px 0.04015      0.40% above sup | RSI45 ADX43 slope+3.02%   <-- NOT in live_scan
-  LONG  XPR/USDT       px 0.0029459    0.91% above sup | RSI55 ADX41 slope+6.00%   <-- NOT in live_scan
-  SHORT TAG/USDT       px 0.0009451    1.22% under res | RSI57 ADX16 slope-3.61%   <-- NOT in live_scan
+  LONG  MEGA/USDT      px 0.03916      0.15% above sup | RSI40 ADX23 slope+8.36%   <-- NOT in live_scan
+  LONG  ETC/USDT       px 7.707        0.21% above sup | RSI40 ADX32 slope+9.29%   <-- NOT in live_scan
+  LONG  MUBARAK/USDT   px 0.02245      0.22% above sup | RSI42 ADX15 slope+11.45%   <-- NOT in live_scan
+  LONG  TRX/USDT       px 0.343        0.29% above sup | RSI44 ADX16 slope+1.13%
+  LONG  XLM/USDT       px 0.1926       0.42% above sup | RSI42 ADX25 slope+8.16%   <-- NOT in live_scan
+  LONG  ARB/USDT       px 0.0959       0.63% above sup | RSI42 ADX16 slope+9.24%   <-- NOT in live_scan
+  LONG  CRO/USDT       px 0.05669      0.65% above sup | RSI41 ADX21 slope+7.94%   <-- NOT in live_scan
+  LONG  WIF/USDT       px 0.1911       0.68% above sup | RSI42 ADX18 slope+14.54%   <-- NOT in live_scan
+  LONG  BCH/USDT       px 272.74       0.70% above sup | RSI44 ADX24 slope+12.64%   <-- NOT in live_scan
+  LONG  AVAX/USDT      px 7.406        0.74% above sup | RSI41 ADX29 slope+6.26%
+  LONG  OP/USDT        px 0.1061       0.75% above sup | RSI43 ADX18 slope+9.14%   <-- NOT in live_scan
+  LONG  LINK/USDT      px 11.4592      0.84% above sup | RSI43 ADX25 slope+8.47%
+  LONG  NEAR/USDT      px 1.8382       0.88% above sup | RSI40 ADX29 slope+6.21%
+  LONG  MELANIA/USDT   px 0.09981      0.98% above sup | RSI43 ADX39 slope+14.90%   <-- NOT in live_scan
+  LONG  ADA/USDT       px 0.2195       1.00% above sup | RSI42 ADX19 slope+8.89%
+  LONG  ETH/USDT       px 2413.98      1.03% above sup | RSI46 ADX23 slope+8.26%
+  LONG  GALAX/USDT     px 0.00189      1.06% above sup | RSI43 ADX28 slope+10.20%   <-- NOT in live_scan
+  LONG  ETHFI/USDT     px 0.5662       1.15% above sup | RSI43 ADX19 slope+8.33%   <-- NOT in live_scan
+  LONG  ULTIMA/USDT    px 2387.21      1.18% above sup | RSI55 ADX16 slope+1.00%   <-- NOT in live_scan
+  LONG  SYN/USDT       px 0.1095       1.28% above sup | RSI46 ADX17 slope+1.68%   <-- NOT in live_scan
+  LONG  POL/USDT       px 0.103        1.36% above sup | RSI46 ADX21 slope+10.92%   <-- NOT in live_scan
+  LONG  HBAR/USDT      px 0.07702      1.38% above sup | RSI46 ADX16 slope+5.60%   <-- NOT in live_scan
+  LONG  LTC/USDT       px 51.21        1.43% above sup | RSI42 ADX33 slope+5.62%
+  LONG  PEOPLE/USDT    px 0.01014      1.48% above sup | RSI40 ADX19 slope+14.77%   <-- NOT in live_scan
