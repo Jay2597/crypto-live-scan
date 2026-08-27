@@ -1,11 +1,11 @@
-BROAD SWEEP 2026-08-26 04:50 UTC | source kucoin | last closed 1h bar 2026-08-26 03:00:00+00:00
-scanned 113 pairs (0 fetch errors) | fired 0 | near-trigger 5
+BROAD SWEEP 2026-08-27 15:08 UTC | source kucoin | last closed 1h bar 2026-08-27 14:00:00+00:00
+scanned 120 pairs (0 fetch errors) | fired 1 | near-trigger 4
 
-FIRED SIGNALS: none
+FIRED SIGNALS:
+  FIRED LONG  XAUT/USDT      @ 4580.98 score 4.46  <-- NOT in live_scan
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  CC/USDT        px 0.11843      1.00% above sup | RSI42 ADX16 slope+6.04%   <-- NOT in live_scan
-  SHORT TEA/USDT       px 3.765e-05    1.06% under res | RSI43 ADX48 slope-1.51%   <-- NOT in live_scan
-  LONG  ZIG/USDT       px 0.04121      1.09% above sup | RSI47 ADX32 slope+1.84%   <-- NOT in live_scan
-  LONG  BNB/USDT       px 696.123      1.16% above sup | RSI46 ADX26 slope+2.82%
-  LONG  HBAR/USDT      px 0.07823      1.23% above sup | RSI41 ADX19 slope+3.48%   <-- NOT in live_scan
+  LONG  PAXG/USDT      px 4584.97      0.51% above sup | RSI44 ADX23 slope+0.61%   <-- NOT in live_scan
+  SHORT TEA/USDT       px 3.797e-05    1.00% under res | RSI56 ADX69 slope-1.15%   <-- NOT in live_scan
+  LONG  CTR/USDT       px 0.009163     1.10% above sup | RSI49 ADX16 slope+3.27%   <-- NOT in live_scan
+  LONG  ZIG/USDT       px 0.04171      1.20% above sup | RSI49 ADX44 slope+1.63%   <-- NOT in live_scan
