@@ -1,12 +1,10 @@
-BROAD SWEEP 2026-08-31 10:46 UTC | source kucoin | last closed 1h bar 2026-08-31 09:00:00+00:00
-scanned 118 pairs (0 fetch errors) | fired 0 | near-trigger 6
+BROAD SWEEP 2026-09-01 09:21 UTC | source kucoin | last closed 1h bar 2026-09-01 08:00:00+00:00
+scanned 108 pairs (0 fetch errors) | fired 0 | near-trigger 4
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT XAUT/USDT      px 4435.36      0.58% under res | RSI45 ADX43 slope-0.87%   <-- NOT in live_scan
-  SHORT ILY/USDT       px 0.3605       0.67% under res | RSI59 ADX16 slope-0.69%   <-- NOT in live_scan
-  SHORT PAXG/USDT      px 4445.38      0.73% under res | RSI46 ADX39 slope-0.87%   <-- NOT in live_scan
-  LONG  VELO/USDT      px 0.004601     0.93% above sup | RSI45 ADX35 slope+7.63%   <-- NOT in live_scan
-  LONG  CTR/USDT       px 0.009339     1.02% above sup | RSI40 ADX16 slope+2.87%   <-- NOT in live_scan
-  LONG  ZKC/USDT       px 0.0536       1.12% above sup | RSI42 ADX36 slope+13.19%   <-- NOT in live_scan
+  LONG  RAIN/USDT      px 0.016695     0.16% above sup | RSI44 ADX24 slope+1.28%   <-- NOT in live_scan
+  LONG  XPR/USDT       px 0.0029395    0.27% above sup | RSI41 ADX17 slope+1.61%   <-- NOT in live_scan
+  LONG  ETH/USDT       px 2448.09      0.44% above sup | RSI42 ADX17 slope+0.80%
+  LONG  ASTER/USDT     px 0.6957       0.80% above sup | RSI45 ADX21 slope+0.63%   <-- NOT in live_scan
