@@ -1,14 +1,18 @@
-BROAD SWEEP 2026-09-18 08:58 UTC | source kucoin | last closed 1h bar 2026-09-18 07:00:00+00:00
-scanned 138 pairs (0 fetch errors) | fired 0 | near-trigger 8
+BROAD SWEEP 2026-09-19 08:44 UTC | source kucoin | last closed 1h bar 2026-09-19 07:00:00+00:00
+scanned 143 pairs (0 fetch errors) | fired 0 | near-trigger 12
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT KONET/USDT     px 0.01835      0.49% under res | RSI50 ADX53 slope-1.65%   <-- NOT in live_scan
-  SHORT RAIN/USDT      px 0.013086     0.89% under res | RSI58 ADX37 slope-5.73%   <-- NOT in live_scan
-  SHORT DATA/USDT      px 0.1842       0.92% under res | RSI57 ADX27 slope-1.59%   <-- NOT in live_scan
-  SHORT XPR/USDT       px 0.002477     0.93% under res | RSI59 ADX26 slope-3.14%   <-- NOT in live_scan
-  SHORT DIAM/USDT      px 0.005454     1.03% under res | RSI47 ADX32 slope-0.81%   <-- NOT in live_scan
-  LONG  YOM/USDT       px 0.01501      1.13% above sup | RSI49 ADX50 slope+3.02%   <-- NOT in live_scan
-  LONG  KII/USDT       px 0.08159      1.15% above sup | RSI46 ADX24 slope+3.17%   <-- NOT in live_scan
-  SHORT ULTIMA/USDT    px 1889.13      1.25% under res | RSI51 ADX35 slope-2.31%   <-- NOT in live_scan
+  SHORT DIAM/USDT      px 0.005476     0.05% under res | RSI55 ADX33 slope-0.62%   <-- NOT in live_scan
+  LONG  DOT/USDT       px 1.1025       0.15% above sup | RSI41 ADX37 slope+3.84%
+  LONG  BCH/USDT       px 245.59       0.21% above sup | RSI44 ADX41 slope+2.54%   <-- NOT in live_scan
+  LONG  SHIB/USDT      px 5.383e-06    0.37% above sup | RSI47 ADX36 slope+1.36%   <-- NOT in live_scan
+  LONG  WLD/USDT       px 0.4156       0.75% above sup | RSI46 ADX24 slope+2.10%   <-- NOT in live_scan
+  LONG  TEA/USDT       px 4.112e-05    0.88% above sup | RSI51 ADX15 slope+0.63%   <-- NOT in live_scan
+  SHORT XPR/USDT       px 0.0025399    0.94% under res | RSI57 ADX50 slope-1.82%   <-- NOT in live_scan
+  LONG  TSLAX/USDT     px 364.53       0.94% above sup | RSI47 ADX23 slope+0.53%   <-- NOT in live_scan
+  LONG  SEI/USDT       px 0.04741      1.12% above sup | RSI52 ADX38 slope+1.46%   <-- NOT in live_scan
+  LONG  ONDO/USDT      px 0.39467      1.33% above sup | RSI50 ADX37 slope+4.19%   <-- NOT in live_scan
+  LONG  ALGO/USDT      px 0.096        1.35% above sup | RSI49 ADX35 slope+0.68%   <-- NOT in live_scan
+  SHORT ILY/USDT       px 0.32         1.44% under res | RSI52 ADX15 slope-1.54%   <-- NOT in live_scan
