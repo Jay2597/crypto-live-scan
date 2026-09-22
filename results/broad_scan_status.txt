@@ -1,8 +1,13 @@
-BROAD SWEEP 2026-09-21 09:51 UTC | source kucoin | last closed 1h bar 2026-09-21 08:00:00+00:00
-scanned 139 pairs (0 fetch errors) | fired 0 | near-trigger 2
+BROAD SWEEP 2026-09-22 09:14 UTC | source kucoin | last closed 1h bar 2026-09-22 08:00:00+00:00
+scanned 150 pairs (0 fetch errors) | fired 0 | near-trigger 7
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  TEA/USDT       px 4.154e-05    1.30% above sup | RSI55 ADX24 slope+0.58%   <-- NOT in live_scan
-  LONG  YOM/USDT       px 0.01596      1.32% above sup | RSI49 ADX39 slope+4.07%   <-- NOT in live_scan
+  LONG  BNB/USDT       px 787.567      0.56% above sup | RSI49 ADX28 slope+2.24%
+  SHORT DIAM/USDT      px 0.005368     0.71% under res | RSI43 ADX20 slope-0.85%   <-- NOT in live_scan
+  LONG  KII/USDT       px 0.08148      0.86% above sup | RSI59 ADX59 slope+0.65%   <-- NOT in live_scan
+  LONG  LTC/USDT       px 60.91        1.17% above sup | RSI51 ADX33 slope+3.89%
+  LONG  PIEVERSE/USDT  px 1.805        1.22% above sup | RSI51 ADX33 slope+12.63%   <-- NOT in live_scan
+  LONG  ETH/USDT       px 2748.92      1.34% above sup | RSI58 ADX44 slope+2.70%
+  LONG  PEAQ/USDT      px 0.03421      1.49% above sup | RSI42 ADX23 slope+9.89%   <-- NOT in live_scan
