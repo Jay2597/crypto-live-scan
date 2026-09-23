@@ -1,13 +1,22 @@
-BROAD SWEEP 2026-09-22 09:14 UTC | source kucoin | last closed 1h bar 2026-09-22 08:00:00+00:00
-scanned 150 pairs (0 fetch errors) | fired 0 | near-trigger 7
+BROAD SWEEP 2026-09-23 09:15 UTC | source kucoin | last closed 1h bar 2026-09-23 08:00:00+00:00
+scanned 150 pairs (0 fetch errors) | fired 0 | near-trigger 16
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  BNB/USDT       px 787.567      0.56% above sup | RSI49 ADX28 slope+2.24%
-  SHORT DIAM/USDT      px 0.005368     0.71% under res | RSI43 ADX20 slope-0.85%   <-- NOT in live_scan
-  LONG  KII/USDT       px 0.08148      0.86% above sup | RSI59 ADX59 slope+0.65%   <-- NOT in live_scan
-  LONG  LTC/USDT       px 60.91        1.17% above sup | RSI51 ADX33 slope+3.89%
-  LONG  PIEVERSE/USDT  px 1.805        1.22% above sup | RSI51 ADX33 slope+12.63%   <-- NOT in live_scan
-  LONG  ETH/USDT       px 2748.92      1.34% above sup | RSI58 ADX44 slope+2.70%
-  LONG  PEAQ/USDT      px 0.03421      1.49% above sup | RSI42 ADX23 slope+9.89%   <-- NOT in live_scan
+  LONG  SPX/USDT       px 0.5033       0.24% above sup | RSI41 ADX16 slope+2.60%   <-- NOT in live_scan
+  LONG  BTC/USDT       px 85903        0.50% above sup | RSI46 ADX28 slope+3.45%
+  SHORT DIAM/USDT      px 0.005338     0.52% under res | RSI40 ADX45 slope-0.94%   <-- NOT in live_scan
+  LONG  BNB/USDT       px 785.905      0.66% above sup | RSI44 ADX15 slope+2.45%
+  LONG  ETH/USDT       px 2734.94      0.67% above sup | RSI43 ADX23 slope+3.18%
+  LONG  TRX/USDT       px 0.343        0.82% above sup | RSI45 ADX26 slope+0.68%
+  LONG  KCS/USDT       px 7.34         0.86% above sup | RSI42 ADX16 slope+1.72%   <-- NOT in live_scan
+  LONG  FLOCK/USDT     px 0.08232      0.87% above sup | RSI47 ADX36 slope+6.67%   <-- NOT in live_scan
+  LONG  CRCLX/USDT     px 93.96        0.89% above sup | RSI47 ADX22 slope+1.79%   <-- NOT in live_scan
+  LONG  DGAI/USDT      px 1.04812      0.96% above sup | RSI51 ADX25 slope+6.94%   <-- NOT in live_scan
+  LONG  WIF/USDT       px 0.2494       1.04% above sup | RSI48 ADX31 slope+10.03%   <-- NOT in live_scan
+  LONG  PUMP/USDT      px 0.004348     1.10% above sup | RSI41 ADX18 slope+4.20%   <-- NOT in live_scan
+  LONG  TAO/USDT       px 310.04       1.12% above sup | RSI49 ADX27 slope+10.01%   <-- NOT in live_scan
+  LONG  RENDER/USDT    px 1.818        1.21% above sup | RSI46 ADX21 slope+8.64%   <-- NOT in live_scan
+  LONG  DOGE/USDT      px 0.09973      1.24% above sup | RSI47 ADX35 slope+6.44%
+  LONG  SOL/USDT       px 117.39       1.24% above sup | RSI46 ADX21 slope+4.44%
