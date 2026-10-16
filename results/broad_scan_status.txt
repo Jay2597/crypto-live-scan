@@ -1,10 +1,21 @@
-BROAD SWEEP 2026-10-15 09:04 UTC | source kucoin | last closed 1h bar 2026-10-15 08:00:00+00:00
-scanned 142 pairs (0 fetch errors) | fired 0 | near-trigger 4
+BROAD SWEEP 2026-10-16 08:57 UTC | source kucoin | last closed 1h bar 2026-10-16 07:00:00+00:00
+scanned 130 pairs (0 fetch errors) | fired 0 | near-trigger 15
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT KONET/USDT     px 0.01569      0.51% under res | RSI60 ADX26 slope-4.36%   <-- NOT in live_scan
-  LONG  AAPLX/USDT     px 346.8        1.08% above sup | RSI58 ADX38 slope+0.80%   <-- NOT in live_scan
-  SHORT ASTER/USDT     px 0.6946       1.25% under res | RSI51 ADX20 slope-0.81%   <-- NOT in live_scan
-  SHORT GRAM/USDT      px 1.351        1.33% under res | RSI48 ADX20 slope-2.32%   <-- NOT in live_scan
+  SHORT LINK/USDT      px 12.5934      0.10% under res | RSI59 ADX15 slope-2.33%
+  SHORT BTC/USDT       px 82275.4      0.43% under res | RSI54 ADX16 slope-0.70%
+  SHORT DOGE/USDT      px 0.08223      0.46% under res | RSI59 ADX23 slope-2.55%
+  SHORT ETH/USDT       px 2454.77      0.50% under res | RSI60 ADX19 slope-1.86%
+  SHORT BNB/USDT       px 731.03       0.54% under res | RSI54 ADX22 slope-1.26%
+  SHORT XRP/USDT       px 1.33975      0.58% under res | RSI55 ADX18 slope-2.15%
+  SHORT POL/USDT       px 0.0965       0.73% under res | RSI57 ADX15 slope-2.94%   <-- NOT in live_scan
+  SHORT ICP/USDT       px 3.088        0.78% under res | RSI59 ADX17 slope-2.29%   <-- NOT in live_scan
+  SHORT SUI/USDT       px 1.0441       0.79% under res | RSI59 ADX16 slope-2.80%
+  SHORT HOODX/USDT     px 103.51       0.92% under res | RSI55 ADX22 slope-2.83%   <-- NOT in live_scan
+  SHORT PENDLE/USDT    px 2.113        0.96% under res | RSI60 ADX18 slope-2.47%   <-- NOT in live_scan
+  SHORT RAY/USDT       px 1.8775       1.18% under res | RSI58 ADX16 slope-6.66%   <-- NOT in live_scan
+  SHORT SAPIEN/USDT    px 0.06485      1.22% under res | RSI53 ADX19 slope-3.38%   <-- NOT in live_scan
+  SHORT XPR/USDT       px 0.0022304    1.31% under res | RSI49 ADX30 slope-0.65%   <-- NOT in live_scan
+  SHORT ULTIMA/USDT    px 1578.66      1.45% under res | RSI42 ADX46 slope-0.62%   <-- NOT in live_scan
