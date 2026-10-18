@@ -1,9 +1,20 @@
-BROAD SWEEP 2026-10-17 08:29 UTC | source kucoin | last closed 1h bar 2026-10-17 07:00:00+00:00
-scanned 115 pairs (0 fetch errors) | fired 0 | near-trigger 3
+BROAD SWEEP 2026-10-18 08:47 UTC | source kucoin | last closed 1h bar 2026-10-18 07:00:00+00:00
+scanned 99 pairs (0 fetch errors) | fired 0 | near-trigger 14
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  APT/USDT       px 0.8324       0.83% above sup | RSI44 ADX18 slope+0.53%
-  SHORT BTC/USDT       px 81717.6      1.14% under res | RSI50 ADX18 slope-0.65%
-  SHORT BNB/USDT       px 722.378      1.36% under res | RSI44 ADX26 slope-1.20%
+  SHORT BNB/USDT       px 720.729      0.35% under res | RSI52 ADX18 slope-1.19%
+  SHORT KCS/USDT       px 7.456        0.38% under res | RSI58 ADX17 slope-0.54%   <-- NOT in live_scan
+  SHORT BTC/USDT       px 81690.5      0.45% under res | RSI52 ADX17 slope-0.59%
+  SHORT ATOM/USDT      px 1.7145       0.57% under res | RSI51 ADX19 slope-1.72%   <-- NOT in live_scan
+  SHORT SWARM/USDT     px 0.09414      1.01% under res | RSI52 ADX22 slope-1.26%   <-- NOT in live_scan
+  SHORT MSTRX/USDT     px 136.63       1.06% under res | RSI47 ADX30 slope-3.66%   <-- NOT in live_scan
+  SHORT LTC/USDT       px 59.04        1.10% under res | RSI48 ADX31 slope-2.00%
+  SHORT ETH/USDT       px 2408.58      1.11% under res | RSI46 ADX22 slope-1.22%
+  SHORT UNI/USDT       px 7.2368       1.11% under res | RSI51 ADX22 slope-1.65%
+  SHORT XRP/USDT       px 1.29306      1.12% under res | RSI43 ADX32 slope-2.10%
+  SHORT XLM/USDT       px 0.1774       1.18% under res | RSI45 ADX32 slope-2.85%   <-- NOT in live_scan
+  SHORT HYPE/USDT      px 78.408       1.23% under res | RSI42 ADX24 slope-2.00%   <-- NOT in live_scan
+  SHORT FET/USDT       px 0.1927       1.25% under res | RSI49 ADX26 slope-3.92%   <-- NOT in live_scan
+  SHORT SOL/USDT       px 103.32       1.41% under res | RSI44 ADX23 slope-1.67%
