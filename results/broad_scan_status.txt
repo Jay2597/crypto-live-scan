@@ -1,10 +1,9 @@
-BROAD SWEEP 2026-10-24 08:49 UTC | source kucoin | last closed 1h bar 2026-10-24 07:00:00+00:00
-scanned 118 pairs (0 fetch errors) | fired 0 | near-trigger 4
+BROAD SWEEP 2026-10-25 09:05 UTC | source kucoin | last closed 1h bar 2026-10-25 08:00:00+00:00
+scanned 110 pairs (0 fetch errors) | fired 1 | near-trigger 2
 
-FIRED SIGNALS: none
+FIRED SIGNALS:
+  FIRED SHORT PAXG/USDT      @ 3999.54 score 5.45  <-- NOT in live_scan
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT ADI/USDT       px 8.0391       0.48% under res | RSI46 ADX21 slope-0.91%   <-- NOT in live_scan
-  SHORT DIAM/USDT      px 0.004302     0.63% under res | RSI41 ADX27 slope-1.07%   <-- NOT in live_scan
-  SHORT KONET/USDT     px 0.01255      0.88% under res | RSI58 ADX42 slope-5.85%   <-- NOT in live_scan
-  LONG  TRUTH/USDT     px 0.01855      1.45% above sup | RSI43 ADX19 slope+1.62%   <-- NOT in live_scan
+  SHORT ADI/USDT       px 8.0573       0.33% under res | RSI48 ADX23 slope-0.75%   <-- NOT in live_scan
+  SHORT BTC/USDT       px 80407        0.76% under res | RSI42 ADX38 slope-0.72%
