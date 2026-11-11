@@ -1,13 +1,16 @@
-BROAD SWEEP 2026-11-10 12:28 UTC | source kucoin | last closed 1h bar 2026-11-10 11:00:00+00:00
-scanned 110 pairs (0 fetch errors) | fired 0 | near-trigger 7
+BROAD SWEEP 2026-11-11 11:47 UTC | source kucoin | last closed 1h bar 2026-11-11 10:00:00+00:00
+scanned 116 pairs (0 fetch errors) | fired 0 | near-trigger 10
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  SHORT BNB/USDT       px 688.659      0.57% under res | RSI48 ADX17 slope-0.82%
-  SHORT ZRO/USDT       px 1.5169       0.64% under res | RSI52 ADX15 slope-4.07%   <-- NOT in live_scan
-  SHORT TEA/USDT       px 3.643e-05    0.77% under res | RSI45 ADX49 slope-0.92%   <-- NOT in live_scan
-  SHORT ASTER/USDT     px 0.6505       0.97% under res | RSI51 ADX15 slope-2.36%   <-- NOT in live_scan
-  SHORT ATOM/USDT      px 1.389        1.03% under res | RSI57 ADX28 slope-2.47%   <-- NOT in live_scan
-  SHORT FET/USDT       px 0.1456       1.24% under res | RSI55 ADX20 slope-3.02%   <-- NOT in live_scan
-  LONG  EDGE/USDT      px 0.3873       1.24% above sup | RSI49 ADX30 slope+5.15%   <-- NOT in live_scan
+  SHORT KCS/USDT       px 6.811        0.69% under res | RSI52 ADX35 slope-1.84%   <-- NOT in live_scan
+  SHORT FIL/USDT       px 0.7642       0.96% under res | RSI55 ADX18 slope-2.94%   <-- NOT in live_scan
+  SHORT BTC/USDT       px 74041.9      1.06% under res | RSI52 ADX19 slope-1.40%
+  SHORT SHIB/USDT      px 4.443e-06    1.13% under res | RSI51 ADX17 slope-1.29%   <-- NOT in live_scan
+  SHORT PUMP/USDT      px 0.003577     1.15% under res | RSI55 ADX16 slope-4.06%   <-- NOT in live_scan
+  SHORT XRP/USDT       px 1.06233      1.18% under res | RSI47 ADX29 slope-4.36%
+  SHORT XLM/USDT       px 0.1475       1.22% under res | RSI60 ADX20 slope-2.88%   <-- NOT in live_scan
+  SHORT BNB/USDT       px 682.129      1.34% under res | RSI51 ADX20 slope-0.98%
+  SHORT ADA/USDT       px 0.1764       1.36% under res | RSI54 ADX19 slope-2.24%
+  SHORT SOL/USDT       px 83.85        1.47% under res | RSI51 ADX33 slope-3.12%
