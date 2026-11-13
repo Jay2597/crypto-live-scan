@@ -1,9 +1,19 @@
-BROAD SWEEP 2026-11-12 12:32 UTC | source kucoin | last closed 1h bar 2026-11-12 11:00:00+00:00
-scanned 107 pairs (0 fetch errors) | fired 0 | near-trigger 3
+BROAD SWEEP 2026-11-13 12:04 UTC | source kucoin | last closed 1h bar 2026-11-13 10:00:00+00:00
+scanned 120 pairs (0 fetch errors) | fired 0 | near-trigger 13
 
 FIRED SIGNALS: none
 
 NEAR-TRIGGER WATCHLIST (sorted by distance to level; <-- = candidate to add):
-  LONG  TSLAX/USDT     px 389.03       0.86% above sup | RSI56 ADX21 slope+1.44%   <-- NOT in live_scan
-  LONG  ICP/USDT       px 2.569        1.05% above sup | RSI51 ADX19 slope+1.35%   <-- NOT in live_scan
-  SHORT ASTER/USDT     px 0.6572       1.31% under res | RSI54 ADX17 slope-1.60%   <-- NOT in live_scan
+  LONG  CENT/USDT      px 0.0027204    0.33% above sup | RSI44 ADX17 slope+2.05%   <-- NOT in live_scan
+  SHORT TAO/USDT       px 212.32       0.38% under res | RSI55 ADX28 slope-2.03%   <-- NOT in live_scan
+  SHORT NEAR/USDT      px 3.5533       0.43% under res | RSI60 ADX27 slope-2.73%
+  SHORT SEI/USDT       px 0.04331      0.53% under res | RSI55 ADX21 slope-2.14%   <-- NOT in live_scan
+  LONG  AAPLX/USDT     px 357.55       0.55% above sup | RSI52 ADX19 slope+1.17%   <-- NOT in live_scan
+  SHORT XDC/USDT       px 0.02964      0.61% under res | RSI57 ADX19 slope-1.75%   <-- NOT in live_scan
+  SHORT SUI/USDT       px 0.8026       0.70% under res | RSI52 ADX26 slope-2.27%
+  SHORT VVV/USDT       px 19.071       0.92% under res | RSI54 ADX28 slope-3.37%   <-- NOT in live_scan
+  SHORT DOT/USDT       px 0.8301       1.10% under res | RSI51 ADX26 slope-2.69%
+  SHORT EVAA/USDT      px 1.0958       1.12% under res | RSI58 ADX33 slope-4.94%   <-- NOT in live_scan
+  SHORT KAS/USDT       px 0.02913      1.17% under res | RSI56 ADX19 slope-1.99%   <-- NOT in live_scan
+  SHORT STX/USDT       px 0.2915       1.27% under res | RSI53 ADX35 slope-3.36%   <-- NOT in live_scan
+  SHORT WIF/USDT       px 0.1511       1.39% under res | RSI49 ADX33 slope-2.42%   <-- NOT in live_scan
